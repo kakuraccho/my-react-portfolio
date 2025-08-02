@@ -1,0 +1,13 @@
+header {
+  background-color: #ffffff;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  border-bottom: 1px solid #eaeaea;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #111111;
+}

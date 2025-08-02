@@ -1,0 +1,12 @@
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* 画面全体の高さを確保 */
+}
+
+/* main要素が利用可能な残りのスペースを
+  すべて埋めるようにする (flex-grow: 1)
+*/
+.app-layout main {
+  flex: 1;
+}
