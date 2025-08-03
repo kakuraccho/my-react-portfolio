@@ -1,12 +1,12 @@
-import '../css/Pages.css';
+import '../css/Page.css';
 
 const HomePage = () => {
-    return (
-        <div>
-            <h2 className='page-content'>ホームページ</h2>
-            <p>ようこそ！</p>
-        </div>
-    );
+  return (
+    <div className="page-content">
+        <h2>What's this?</h2>
+        <p>これはReactのポートフォリオサイトです。</p>
+    </div>
+  );
 };
 
 export default HomePage;

@@ -1,13 +1,31 @@
-header {
-  background-color: #ffffff;
-  padding: 1.5rem 2rem;
-  text-align: center;
-  border-bottom: 1px solid #eaeaea;
+.site-header {
+  background-color: var(--color-surface);
+  padding: 1rem 2rem;
+  border-bottom: 1px solid var(--color-border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-header h1 {
+.site-logo h1 {
   margin: 0;
-  font-size: 1.75rem;
-  font-weight: 600;
-  color: #111111;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.main-nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: var(--color-text-secondary);
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.main-nav a:hover {
+  color: var(--color-text-primary);
 }
