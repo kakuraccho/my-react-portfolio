@@ -1,3 +1,5 @@
+import workAImage from '@/images/portfolio_A_clock.png';
+
 export interface Work {
   id: number;
   title: string;
@@ -9,9 +11,9 @@ export interface Work {
 export const myWorks: Work[] = [
   {
     id: 1,
-    title: '作品A',
-    description: 'TEST',
+    title: 'ポモドーロタイマー',
+    description: '○○の機能が入ったポモドーロタイマーです',
     url: 'http://our0kobaaaaa.xsrv.jp/works/work01/',
-    imageUrl: 'https://via.placeholder.com/300x200?text=Work+A'
+    imageUrl: workAImage
   }
 ];

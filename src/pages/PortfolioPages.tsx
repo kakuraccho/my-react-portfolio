@@ -1,6 +1,6 @@
 import { myWorks } from '../data/works';
 import '../css/Page.css';
-import '../css/WortList.css'
+import '../css/WorkList.css'
 
 const PortfolioPage = () => {
     return (
